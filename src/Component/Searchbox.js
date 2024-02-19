@@ -1,10 +1,10 @@
 import React from "react";
 import "./Searchbox.css";
-function Searchbox({placeholder, handleChange}) {
+function Searchbox({ placeholder, handleChange }) {
     return (
-        <div >
+        <div>
             <input
-                className='search'
+                className="search"
                 type="search"
                 placeholder={placeholder}
                 onChange={handleChange}
